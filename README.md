@@ -11,3 +11,4 @@ git add .<br>
 git commit -m "A commit message that describes the reason for the commit or the changes being made"<br>
 git push origin branch_name<br>
   git pull origin branch_name<br></b></i>
+#Jordan Sexton-Schoenmann - jschoenmann1@madisoncollege.edu
