@@ -1,0 +1,5 @@
+Bucket Name is: sextonschoen-fa24-buckettest
+No objects in this bucket.
+Bucket Name is: sextonschoen-script2-week2-f24
+ Object Name: error.html
+ Object Name: index.html
