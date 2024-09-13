@@ -1,0 +1,6 @@
+Before Waiting: Instance is pending
+After Waiting: Instance is running
+Public IP Address: 35.175.140.117
+No tags found before adding
+Updated Tags: [{'Key': 'Name', 'Value': 'Jordan'}]
+Before Termination: Instance is running
