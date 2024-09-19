@@ -85,11 +85,11 @@ def main():
 
     instance.load()
     print(f"Updated Tags: {instance.tags}")
-
+"""
     print(f"Before Termination: Instance is {instance.state['Name']}")
     instance.terminate()
     instance.wait_until_terminated()
     print(f"After Terminated: Instance is {instance.state['Name']}")
-
+"""
 if __name__ == "__main__":
     main()

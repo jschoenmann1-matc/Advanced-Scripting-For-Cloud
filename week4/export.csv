@@ -1,0 +1,4 @@
+InstanceId,InstanceType,State,PublicIpAddress,MonitoringState,InstanceName
+i-0f7a8942b45745951,t2.micro,running,18.232.97.71,disabled,Jordan
+i-0638d3dc2aa574b13,t2.micro,running,54.209.37.9,disabled,Jordan
+i-051cfe10cd4047e01,t2.micro,running,52.91.181.126,disabled,Jordan
