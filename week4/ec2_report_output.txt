@@ -1,0 +1,24 @@
+{
+    "InstanceId": "i-0f7a8942b45745951",
+    "InstanceType": "t2.micro",
+    "State": "running",
+    "PublicIpAddress": "18.232.97.71",
+    "MonitoringState": "disabled",
+    "InstanceName": "Jordan"
+}
+{
+    "InstanceId": "i-0638d3dc2aa574b13",
+    "InstanceType": "t2.micro",
+    "State": "running",
+    "PublicIpAddress": "54.209.37.9",
+    "MonitoringState": "disabled",
+    "InstanceName": "Jordan"
+}
+{
+    "InstanceId": "i-051cfe10cd4047e01",
+    "InstanceType": "t2.micro",
+    "State": "running",
+    "PublicIpAddress": "52.91.181.126",
+    "MonitoringState": "disabled",
+    "InstanceName": "Jordan"
+}
