@@ -1,0 +1,23 @@
+1. The name of the method I would use to create a new Lambda function is create_function.
+
+2. The required parameters I would need for creating a Lambda function are:
+
+FunctionName - A string for the name of the Lambda function
+
+Runtime - A string for the runtime environment for the Lambda function.
+
+Role - A string for the Amazong Resource Name of the IAM role so that the function assumes when it's executed.
+
+Handler - A string for the function handler in the code
+
+Code - A dictionary for the code for the lambda function including the deployment package.
+
+Description, Timeout, and Memorysize are optional things that would allow for a short description of the function, the amount of time that lambda allows a function to run
+and the amount of memory available to the function. These would be string, integer, and integer.
+
+
+3. Two ways I could specify the python code that should be used in the Boto3 function to create a new Lambda function:
+
+Using an S3 bucket I could specify the code by providing the S3Bucket and S3Key in the code parameter.
+
+I could also upload the code directly by providing a zip file inthe code parameter.
