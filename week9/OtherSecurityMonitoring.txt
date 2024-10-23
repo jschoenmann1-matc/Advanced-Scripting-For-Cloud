@@ -1,0 +1,14 @@
+Additional Ways to Monitor my AWS account for security:
+
+1. You can monitor S3 Bucket Public access by looking for any bucket that has public access permissions.
+Fucntions: get_bucket_acl, get_bucket_policy
+
+
+2. You can monitor EC2 Security Groups for open ports. This would check the security group rules for any ports that are wide open to the network.
+Things like 0.0.0.0/0 for SSH
+Functions: describe_security_groups
+
+
+3. You can set up monitoring for IAM policies for wildcard permissions. This would look for policies that grant any wildcard(*) permissions or access to
+wildcard resources.
+Functions: list_policies, get_policy_version
