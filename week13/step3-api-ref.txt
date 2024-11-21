@@ -1,0 +1,15 @@
+    1. Which Python library do you need to install to deploy an Application Service in Azure?
+
+    Answer: To manage the Azure App Service Resources, install the azure-mgmt-web library.
+
+    2. Which function in this module do you need to use to create a new application?
+
+    Answer: The function you need to create a new application is WebSiteManagementClient.web_apps.create_or_update to create or update a web application.
+
+    3. Which Python library do you need to install to create a Key Vault Key in Azure?
+
+    Answer: You install the azure-keyvault-keys library to manage keys in the Azure Key Vault.
+
+    4. What function do you use to retrieve a Secret from the Key Vault?
+    
+    Answer: Using the SecretClient.get_secret function to retrieve a secret from Azure Key Vault
